@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A8673302C433657005AA03F /* SnapGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A86732F2C433657005AA03F /* SnapGridApp.swift */; };
+		4A8673322C433657005AA03F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8673312C433657005AA03F /* ContentView.swift */; };
+		4A8673342C433658005AA03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8673332C433658005AA03F /* Assets.xcassets */; };
+		4A8673372C433658005AA03F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8673362C433658005AA03F /* Preview Assets.xcassets */; };
+		4A8673422C433659005AA03F /* SnapGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8673412C433659005AA03F /* SnapGridTests.swift */; };
+		4A86734C2C433659005AA03F /* SnapGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A86734B2C433659005AA03F /* SnapGridUITests.swift */; };
+		4A86734E2C433659005AA03F /* SnapGridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A86734D2C433659005AA03F /* SnapGridUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A86733E2C433659005AA03F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A8673242C433657005AA03F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A86732B2C433657005AA03F;
+			remoteInfo = SnapGrid;
+		};
+		4A8673482C433659005AA03F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A8673242C433657005AA03F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A86732B2C433657005AA03F;
+			remoteInfo = SnapGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A86732C2C433657005AA03F /* SnapGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A86732F2C433657005AA03F /* SnapGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapGridApp.swift; sourceTree = "<group>"; };
+		4A8673312C433657005AA03F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A8673332C433658005AA03F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A8673362C433658005AA03F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A8673382C433658005AA03F /* SnapGrid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SnapGrid.entitlements; sourceTree = "<group>"; };
+		4A86733D2C433659005AA03F /* SnapGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8673412C433659005AA03F /* SnapGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapGridTests.swift; sourceTree = "<group>"; };
+		4A8673472C433659005AA03F /* SnapGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A86734B2C433659005AA03F /* SnapGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapGridUITests.swift; sourceTree = "<group>"; };
+		4A86734D2C433659005AA03F /* SnapGridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapGridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A8673292C433657005AA03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A86733A2C433659005AA03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8673442C433659005AA03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A8673232C433657005AA03F = {
+			isa = PBXGroup;
+			children = (
+				4A86732E2C433657005AA03F /* SnapGrid */,
+				4A8673402C433659005AA03F /* SnapGridTests */,
+				4A86734A2C433659005AA03F /* SnapGridUITests */,
+				4A86732D2C433657005AA03F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A86732D2C433657005AA03F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A86732C2C433657005AA03F /* SnapGrid.app */,
+				4A86733D2C433659005AA03F /* SnapGridTests.xctest */,
+				4A8673472C433659005AA03F /* SnapGridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A86732E2C433657005AA03F /* SnapGrid */ = {
+			isa = PBXGroup;
+			children = (
+				4A86732F2C433657005AA03F /* SnapGridApp.swift */,
+				4A8673312C433657005AA03F /* ContentView.swift */,
+				4A8673332C433658005AA03F /* Assets.xcassets */,
+				4A8673382C433658005AA03F /* SnapGrid.entitlements */,
+				4A8673352C433658005AA03F /* Preview Content */,
+			);
+			path = SnapGrid;
+			sourceTree = "<group>";
+		};
+		4A8673352C433658005AA03F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A8673362C433658005AA03F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A8673402C433659005AA03F /* SnapGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A8673412C433659005AA03F /* SnapGridTests.swift */,
+			);
+			path = SnapGridTests;
+			sourceTree = "<group>";
+		};
+		4A86734A2C433659005AA03F /* SnapGridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A86734B2C433659005AA03F /* SnapGridUITests.swift */,
+				4A86734D2C433659005AA03F /* SnapGridUITestsLaunchTests.swift */,
+			);
+			path = SnapGridUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A86732B2C433657005AA03F /* SnapGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A8673512C433659005AA03F /* Build configuration list for PBXNativeTarget "SnapGrid" */;
+			buildPhases = (
+				4A8673282C433657005AA03F /* Sources */,
+				4A8673292C433657005AA03F /* Frameworks */,
+				4A86732A2C433657005AA03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapGrid;
+			productName = SnapGrid;
+			productReference = 4A86732C2C433657005AA03F /* SnapGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A86733C2C433659005AA03F /* SnapGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A8673542C433659005AA03F /* Build configuration list for PBXNativeTarget "SnapGridTests" */;
+			buildPhases = (
+				4A8673392C433659005AA03F /* Sources */,
+				4A86733A2C433659005AA03F /* Frameworks */,
+				4A86733B2C433659005AA03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A86733F2C433659005AA03F /* PBXTargetDependency */,
+			);
+			name = SnapGridTests;
+			productName = SnapGridTests;
+			productReference = 4A86733D2C433659005AA03F /* SnapGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A8673462C433659005AA03F /* SnapGridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A8673572C433659005AA03F /* Build configuration list for PBXNativeTarget "SnapGridUITests" */;
+			buildPhases = (
+				4A8673432C433659005AA03F /* Sources */,
+				4A8673442C433659005AA03F /* Frameworks */,
+				4A8673452C433659005AA03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A8673492C433659005AA03F /* PBXTargetDependency */,
+			);
+			name = SnapGridUITests;
+			productName = SnapGridUITests;
+			productReference = 4A8673472C433659005AA03F /* SnapGridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A8673242C433657005AA03F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4A86732B2C433657005AA03F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					4A86733C2C433659005AA03F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4A86732B2C433657005AA03F;
+					};
+					4A8673462C433659005AA03F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4A86732B2C433657005AA03F;
+					};
+				};
+			};
+			buildConfigurationList = 4A8673272C433657005AA03F /* Build configuration list for PBXProject "SnapGrid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A8673232C433657005AA03F;
+			productRefGroup = 4A86732D2C433657005AA03F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A86732B2C433657005AA03F /* SnapGrid */,
+				4A86733C2C433659005AA03F /* SnapGridTests */,
+				4A8673462C433659005AA03F /* SnapGridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A86732A2C433657005AA03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8673372C433658005AA03F /* Preview Assets.xcassets in Resources */,
+				4A8673342C433658005AA03F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A86733B2C433659005AA03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8673452C433659005AA03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A8673282C433657005AA03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8673322C433657005AA03F /* ContentView.swift in Sources */,
+				4A8673302C433657005AA03F /* SnapGridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8673392C433659005AA03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8673422C433659005AA03F /* SnapGridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8673432C433659005AA03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A86734E2C433659005AA03F /* SnapGridUITestsLaunchTests.swift in Sources */,
+				4A86734C2C433659005AA03F /* SnapGridUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A86733F2C433659005AA03F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A86732B2C433657005AA03F /* SnapGrid */;
+			targetProxy = 4A86733E2C433659005AA03F /* PBXContainerItemProxy */;
+		};
+		4A8673492C433659005AA03F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A86732B2C433657005AA03F /* SnapGrid */;
+			targetProxy = 4A8673482C433659005AA03F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A86734F2C433659005AA03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A8673502C433659005AA03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4A8673522C433659005AA03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SnapGrid/SnapGrid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapGrid/Preview Content\"";
+				DEVELOPMENT_TEAM = SHG5FYXD4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apokryphos.SnapGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4A8673532C433659005AA03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SnapGrid/SnapGrid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapGrid/Preview Content\"";
+				DEVELOPMENT_TEAM = SHG5FYXD4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apokryphos.SnapGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4A8673552C433659005AA03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SHG5FYXD4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apokryphos.SnapGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapGrid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapGrid";
+			};
+			name = Debug;
+		};
+		4A8673562C433659005AA03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SHG5FYXD4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apokryphos.SnapGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapGrid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapGrid";
+			};
+			name = Release;
+		};
+		4A8673582C433659005AA03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SHG5FYXD4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apokryphos.SnapGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SnapGrid;
+			};
+			name = Debug;
+		};
+		4A8673592C433659005AA03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SHG5FYXD4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apokryphos.SnapGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SnapGrid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A8673272C433657005AA03F /* Build configuration list for PBXProject "SnapGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A86734F2C433659005AA03F /* Debug */,
+				4A8673502C433659005AA03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A8673512C433659005AA03F /* Build configuration list for PBXNativeTarget "SnapGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8673522C433659005AA03F /* Debug */,
+				4A8673532C433659005AA03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A8673542C433659005AA03F /* Build configuration list for PBXNativeTarget "SnapGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8673552C433659005AA03F /* Debug */,
+				4A8673562C433659005AA03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A8673572C433659005AA03F /* Build configuration list for PBXNativeTarget "SnapGridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8673582C433659005AA03F /* Debug */,
+				4A8673592C433659005AA03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A8673242C433657005AA03F /* Project object */;
+}
